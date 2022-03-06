@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', monospace;
+}
+    
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+    
+#the-dojo {
+    width: 340px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+    
+.tatami {
+    background-color: wheat;
+    height: 32px;
+    width: 32px;
+    border: 2px solid #ccc;
+    border-right: 2px solid #999;
+    border-bottom: 2px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.tatami:active {
+    border: 2px solid #999;
+    border-right: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    margin: 0 auto;
+    gap: 8px;
+}
+
+.difficulty{
+    width: inherit;
+    height: 30px;
+}
+
+#ninja{
+    height: 32px;
+    width: 32px;
+}
+
+#replay{
+    width: 150px;
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#replayButton{
+    width: inherit;
+    height: 32px;
+}
